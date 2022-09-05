@@ -21,7 +21,6 @@ const gatsbyConfig: GatsbyConfig = {
     PARALLEL_SOURCING: true,
   },
   plugins: [
-    'gatsby-plugin-netlify',
     {
       resolve: 'gatsby-plugin-sass',
       options: {
